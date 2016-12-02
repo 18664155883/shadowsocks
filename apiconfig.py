@@ -3,11 +3,11 @@ NODE_ID = 1
 
 
 #hour,set 0 to disable
-SPEEDTEST = 6
+SPEEDTEST = 6666
 CLOUDSAFE = 1
-ANTISSATTACK = 0
-AUTOEXEC = 0
-MULTI_THREAD = 0
+ANTISSATTACK = 1
+AUTOEXEC = 1
+MULTI_THREAD = 1
 
 SERVER_PUB_ADDR = '127.0.0.1' # mujson_mgr need this to generate ssr link
 API_INTERFACE = 'glzjinmod' #mudbjson, sspanelv2, sspanelv3, sspanelv3ssr, muapiv2(not support)
@@ -20,7 +20,7 @@ MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_USER = 'ss'
 MYSQL_PASS = 'ss'
-MYSQL_DB = 'shadowsocks'
+MYSQL_DB = 'ss'
 MYSQL_UPDATE_TIME = 60
 
 MYSQL_SSL_ENABLE = 0
